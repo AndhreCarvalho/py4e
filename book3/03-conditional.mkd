@@ -187,17 +187,17 @@ SyntaxError: invalid syntax
 
 A blank line at the end of a block of statements is not necessary when writing and executing a script, but it may improve readability of your code.
 
-Alternative execution
+Execução Alternativa
 ---------------------
 
-\index{alternative execution}
+\index{execução alternativa}
 \index{else keyword}
 \index{keyword!else}
 
-A second form of the `if` statement is *alternative
-execution*, in which there are two possibilities and the
-condition determines which one gets executed. The syntax looks like
-this:
+Uma segunda forma da declaração `if` é a execução 
+alternativa, na qual existem duas possibilidades
+e a condição determina qual delas deve ser executada.
+A sintaxe se dá da seguinte forma:
 
 ~~~~ {.python}
 if x%2 == 0 :
@@ -205,6 +205,7 @@ if x%2 == 0 :
 else :
     print('x is odd')
 ~~~~
+
 
 If the remainder when `x` is divided by 2 is 0, then we know
 that `x` is even, and the program displays a message to that
